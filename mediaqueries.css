@@ -1,0 +1,12 @@
+/*Hacemos que cuando el tamaño de la pantalla sea menor
+a 1200 pixeles, la navegacion de Escritorio desaparezca,
+y ocuupe su lugar, la navegacion por Hamburguesa*/
+
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}

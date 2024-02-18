@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASY Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+
+    <body>
+        <!--Barra de Navegacion Superior-->
+        <nav id="desktop-nav">
+            <div class="logo">Antonio Sarmiento</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contáctame</a></li>
+                </ul>
+            </div>
+        </nav>´
+        <!--Menu Hamburguesa-->
+        <nav id="hamburger-nav">
+            <div class="logo">Antonio Sarmiento</div>
+            <div class="hamburger-menu">
+                <!--Icono con una Funcion de comportamiento asignada-->
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <!--Filas del menu hambirguesa-->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!--Menu que se abrira al hacer click en el Icono-->
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">Acerca de</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contáctame</a></li>
+                </div>
+            </div>
+        </nav>
+        <script src="script.js"></script>
+    </body>
+</html>
