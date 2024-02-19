@@ -367,6 +367,76 @@ article .icon{
 
 /*Seccion de PROYECTOS*/
 
-.color{
+#projects{
+    position: relative;
+}
 
+.color-container{
+    border-color: steelblue;
+    background: whitesmoke;
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title{
+    margin: 1rem;
+    color: rgb(11, 97, 168);
+}
+
+.project-btn{
+    color: rgb(11, 97, 168);
+    border-color: steelblue;
+}
+
+/*Seccion de CONTACTO*/
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display:flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: steelblue 0.1rem solid;
+    border-color: whitesmoke;
+    background: white;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor: default;
+}
+
+.email-icon{
+    height: 2.5rem;
+}
+
+/*Seccion de FOOTER*/
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p{
+    text-align: center;
 }
